@@ -3,7 +3,7 @@ var youDontNeedToWorryAboutAnythingInHere = function() {
 	var JobArray = ['Mortician', 'Broadcaster', 'Craftsperson', 'Engineer', 'Interior designer', 'Nun'];
 	var CityArray = ["Scottsdale, Arizona", "Oakland, California", "Stockton, California", "New York, NY"];
 	var emptyNetwork = [];
-	
+
 	function createNetwork(collection){
 
 		for (var i = 0; i < NameArray.length; i++) {
