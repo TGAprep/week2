@@ -5,14 +5,14 @@ TBS's mission is to be the most comprehensive BookStore on the planet - but it n
 Over the next hours, you will build that functionality and make this application run.
 
 This lesson will test your knowledge of building functions and methods.  
-In your scripts.js there are two functions that create your fully-loaded book store and a testUser.
+In scripts.js there are two functions that create your fully-loaded book store and a testUser.
 
 The testUser should have a balance and a cart.  
 The balance represents how much money the test user has to spend on books.  
 The cart holds the books that the user is interested in buying.
 
 Susan, our test user, is a college grad looking for some good reads.  
-Let's first make sure she can quickly and efficiently look up things in our bookStore.
+Let's first make sure she can quickly and efficiently look things up in our bookStore.
 
 1. Create a function, checkStore, that takes a string as a parameter.
 	
@@ -61,7 +61,7 @@ Let's first make sure she can quickly and efficiently look up things in our book
 	```
 	
 	(iii) If their balance is lower than the total of the combined books,  
-	tell them to get their money up and try again later (jk be nice about it).
+	tell them to get their money up and try again later (just be nice about it).
 	
     ### YOU ARE NOW ENTERING HARD MODE
 5. Let's open up our functionality a bit so Susan can more easily find books.

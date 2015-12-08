@@ -2,7 +2,7 @@
 
 ## User Network
 
-Our User, Joey Plain has just signed up for Facebook!  
+Our User, Joey Plain, has just signed up for Facebook!  
 He's very excited and wants to start building out his network as quickly as possible  -and we're going to help him get started.
 
 Don't mess with lines 1 through 35.  
@@ -13,7 +13,7 @@ We're going to use allUsers to help him find his friends, family, and coworkers.
 1. First, let's inspect joeyProfile and allUsers to see what we have.
 
   (i) console.dir the joeyProfile object.  
-   It should have a friends, family, and coworkers arrays.
+   It should have friends, family, and coworkers arrays.
 
   (ii) console.dir the allUsers collection.  
    It should have > 20 objects with the same properties as your joeyProfile object.
@@ -24,14 +24,14 @@ We're going to use allUsers to help him find his friends, family, and coworkers.
      On each iteration, we'll have a single user object. 
     
     (ii) If a user in the allUsers array is from the same city as joeyProfile,  
-     push the username into the joeyProfile friends array.
+     push the username to the joeyProfile friends array.
 
 3. Next, let's add some coworkers to the empty joeyProfile coworkers collection.
   
   (i) Loop through the allUsers array.
   
   (ii) If a user in the allUsers array has the same job as Joey,  
-   push the username into the joeyProfile coworker array.
+   push the username to the joeyProfile coworker array.
 
 4. Next, let's add some family members to the empty joeyProfile family collection.
   
@@ -50,11 +50,12 @@ We're going to use allUsers to help him find his friends, family, and coworkers.
   (i) Loop through our family array.
    
   (ii) Inside of our family loop, loop through our friends array.  
-   What this is diong?  
-   While we're on each family member, check that family member against every person in the friends array.  
+   What this is doing?  
+   As we loop through each family member,  
+   check that family member against every person in the friends array.  
    
   (iii) If the current family member is equal to the current element of our friends array,  
-   delete the element from our friends array.
+   delete that element from our friends array.
    
   (iv) There are a couple of ways to delete things from an array.  
    Look up .splice() and try to use that.
@@ -68,7 +69,7 @@ We're going to use allUsers to help him find his friends, family, and coworkers.
   (ii) Inside of our friends loop, loop through our coworkers array.
    
   (iii) If the value of the current element inside of our coworkers array is equal to  
-   the current element of our friends array, delete the element in our coworkers array.
+   the current element of our friends array, delete that element from our coworkers array.
 
     ### YOU ARE NOW ENTERING NIGHTMARE MODE:
 
@@ -85,7 +86,7 @@ We're going to use allUsers to help him find his friends, family, and coworkers.
 
   (i) Create a function, networkCheck, that takes an array and a name.
 
-  (ii) If the name exists in the array, alert the users full profile formatted exactly like the example below.
+  (ii) If the name exists in the array, alert() the users full profile formatted exactly like the example below.
 
      ```
     nameCheck(friendsArray, 'Solomon Daniels');
