@@ -30,7 +30,9 @@ function __dontWorryAboutThis(){
 
 	return __createBookStore(__booksArray);
 
-} //Don't pay any attention to the man behind the curtain in lines 1-30. Remember, the leading underscores in the variable names mean you shouldn't be messing with these variables.
+}	//  Don't pay any attention to the man behind the curtain in lines 1-30.
+	//  Remember, the leading underscores in the variable names mean 
+	//  you shouldn't be messing with these variables.
 
 function testUser(){
 	var balance = Math.random() * 100 + 130;

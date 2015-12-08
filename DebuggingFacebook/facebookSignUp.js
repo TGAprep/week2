@@ -1,10 +1,10 @@
 /*
 
-Congratulations on making it to part two of Objects! This section
-is about using your new knowlege to debug a small program.
+Congratulations on making it to part two of Objects!
+This section is about using your new knowlege to debug a small program.
 
 Imagine you're a contracted engineer brought on by Facebook to fix
-some of their internal bugs. The programmer before you
+some of their internal bugs.The programmer before you
 made a lot of mistakes and its your job to use your new knowledge
 to clean up the mess.
 
